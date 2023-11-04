@@ -1,0 +1,5 @@
+Board 8x8
+12 man per side
+if there is a jump opp after you jump, you must make another jump
+Becomes a king when you reach the end, allows for long range
+

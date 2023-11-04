@@ -1,0 +1,54 @@
+// The program input for checkers/src/main.leo
+[return_larger_address]
+a: address = aleo1w5zdh5hgcs3nxgw53d3rymxyfjjpm64ccczwavf7kaqj7x9xyc8sl7qfqq;
+b: address = aleo1dpdrv0srf2mmvpqhg3l7v9yla6zuhkwrefqvheqq3xy6l32yjcqsqnrrcw;
+
+[initialize_game]
+first: address = aleo1w5zdh5hgcs3nxgw53d3rymxyfjjpm64ccczwavf7kaqj7x9xyc8sl7qfqq;
+second: address = aleo1w5zdh5hgcs3nxgw53d3rymxyfjjpm64ccczwavf7kaqj7x9xyc8sl7qfqq;
+
+[move_piece]
+game_hash: u128 = 155897608596427540736482836348993013212u128;
+start_pos: u8 = 23u8;
+end_pos: u8 = 32u8;
+starting_board: Game = Game{
+    player_1: aleo1jarg4t2gfze5zwq7hcp9affelrless57jxfyz8xuztvv633zwqxqkfe2vw,
+    player_2: aleo1jarg4t2gfze5zwq7hcp9affelrless57jxfyz8xuztvv633zwqxqkfe2vw,
+    status: 1u8, //player 1 start first
+    r1: 1u8,
+    r2: 3u8,
+    r3: 5u8,
+    r4: 7u8,
+    r5: 10u8,
+    r6: 12u8,
+    r7: 14u8,
+    r8: 16u8,
+    r9: 17u8,
+    r10: 19u8,
+    r11: 21u8,
+    r12: 23u8,
+    b1: 64u8,
+    b2: 62u8,
+    b3: 60u8,
+    b4: 58u8,
+    b5: 49u8,
+    b6: 51u8,
+    b7: 53u8,
+    b8: 55u8,
+    b9: 48u8,
+    b10: 46u8,
+    b11: 44u8,
+    b12: 42u8
+};
+// top black -7 -9
+// 57 58 59 60 61 62 63 64
+// x
+// x
+// x
+// x
+// x
+// x x x x x x x x 
+// 1 2 3 4 5 6 7 8
+// btm red move +7 or +9
+// 7 minutes , 3 minute on slide, roadmap, what we acheive, demo, slide and video
+
